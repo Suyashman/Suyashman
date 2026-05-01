@@ -1,75 +1,18 @@
-<h1 align="center">Hi 👋, I'm Suyash</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+# 💫 About Me:
+I’m a BTech undergraduate from India who enjoys building practical projects and exploring how AI can solve real-world problems. I’m currently focused on machine learning, deep learning, and full-stack development, and I like experimenting with ideas like data-driven apps and intelligent systems. I also have a strong interest in the stock market, especially in understanding trends, analyzing data, and using AI to make smarter insights. I’m always learning, building, and improving with every project I take on.<br>
 
-- 🔭 I’m currently working on **3D Printed gaming rig**
 
-- 🌱 I’m currently learning **AI , ML , DL**
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/suyashsunam) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:2suyash@gmail.com) 
 
-- 👨‍💻 All of my projects are available at [https://github.com/Suyashman](https://github.com/Suyashman)
+# 💻 Tech Stack:
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.shion.dev/api?username=Suyashman&theme=radical&hide_border=true&include_all_commits=true&count_private=false)<br/>
+![](https://streak-stats.demolab.com/?user=Suyashman&theme=radical&hide_border=true)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=Suyashman&theme=radical&hide_border=true&include_all_commits=true&count_private=false&layout=compact)
 
-- 📫 How to reach me **2suyash@gmail.com**
+---
+[![](https://komarev.com/ghpvc/?username=Suyashman&icon=0&color=1)](https://visitcount.itsvg.in)
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/suyashsunam" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="suyashsunam" height="30" width="40" /></a>
-<a href="https://codeforces.com/profile/suyashsunam" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="suyashsunam" height="30" width="40" /></a>
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left" style="white-space:nowrap;">
-
-<a href="https://developer.android.com" style="display:inline-block; margin:5px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" width="40" height="40"/></a>
-
-<a href="https://www.arduino.cc/" style="display:inline-block; margin:5px;"><img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" width="40" height="40"/></a>
-
-<a href="https://aws.amazon.com" style="display:inline-block; margin:5px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="40" height="40"/></a>
-
-<a href="https://www.blender.org/" style="display:inline-block; margin:5px;"><img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" width="40" height="40"/></a>
-
-<a href="https://www.cprogramming.com/" style="display:inline-block; margin:5px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="40" height="40"/></a>
-
-<a href="https://canvasjs.com" style="display:inline-block; margin:5px;"><img src="https://raw.githubusercontent.com/Hardik0307/Hardik0307/master/assets/canvasjs-charts.svg" width="40" height="40"/></a>
-
-<a href="https://www.w3schools.com/cpp/" style="display:inline-block; margin:5px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40" height="40"/></a>
-
-<a href="https://www.w3schools.com/css/" style="display:inline-block; margin:5px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" width="40" height="40"/></a>
-
-<a href="https://www.djangoproject.com/" style="display:inline-block; margin:5px;"><img src="https://cdn.worldvectorlogo.com/logos/django.svg" width="40" height="40"/></a>
-
-<a href="https://www.docker.com/" style="display:inline-block; margin:5px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" width="40" height="40"/></a>
-
-<a href="https://flutter.dev" style="display:inline-block; margin:5px;"><img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" width="40" height="40"/></a>
-
-<a href="https://git-scm.com/" style="display:inline-block; margin:5px;"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="40" height="40"/></a>
-
-<a href="https://www.w3.org/html/" style="display:inline-block; margin:5px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="40" height="40"/></a>
-
-<a href="https://www.java.com" style="display:inline-block; margin:5px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="40" height="40"/></a>
-
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" style="display:inline-block; margin:5px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40" height="40"/></a>
-
-<a href="https://www.linux.org/" style="display:inline-block; margin:5px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40" height="40"/></a>
-
-<a href="https://www.mysql.com/" style="display:inline-block; margin:5px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="40" height="40"/></a>
-
-<a href="https://nodejs.org" style="display:inline-block; margin:5px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="40" height="40"/></a>
-
-<a href="https://opencv.org/" style="display:inline-block; margin:5px;"><img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" width="40" height="40"/></a>
-
-<a href="https://pandas.pydata.org/" style="display:inline-block; margin:5px;"><img src="https://raw.githubusercontent.com/devicons/devicon/icons/pandas/pandas-original.svg" width="40" height="40"/></a>
-
-<a href="https://www.postgresql.org" style="display:inline-block; margin:5px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" width="40" height="40"/></a>
-
-<a href="https://www.python.org" style="display:inline-block; margin:5px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40"/></a>
-
-<a href="https://pytorch.org/" style="display:inline-block; margin:5px;"><img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" width="40" height="40"/></a>
-
-<a href="https://reactjs.org/" style="display:inline-block; margin:5px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="40" height="40"/></a>
-
-<a href="https://scikit-learn.org/" style="display:inline-block; margin:5px;"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="40" height="40"/></a>
-
-<a href="https://seaborn.pydata.org/" style="display:inline-block; margin:5px;"><img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" width="40" height="40"/></a>
-
-<a href="https://www.tensorflow.org" style="display:inline-block; margin:5px;"><img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" width="40" height="40"/></a>
-
-</p>
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
