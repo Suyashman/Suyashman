@@ -2,7 +2,7 @@
 I’m a BTech undergraduate from India who enjoys building practical projects and exploring how AI can solve real-world problems. I’m currently focused on machine learning, deep learning, and full-stack development, and I like experimenting with ideas like data-driven apps and intelligent systems. I also have a strong interest in the stock market, especially in understanding trends, analyzing data, and using AI to make smarter insights. I’m always learning, building, and improving with every project I take on.<br>
 
 ## Personal Website:
-[suyash.sunam.me](https://suyashsunam.me/)
+<a href="https://suyashsunam.me/" target="_blank">suyash.sunam.me</a>
 
 ## Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/suyashsunam) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:2suyash@gmail.com) 
