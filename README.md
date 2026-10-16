@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:EE7200,100:1F2937&height=230&section=header&text=Suyash%20Sunam&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Computer%20Vision%20%C2%B7%20AI%20Surveillance%20%C2%B7%20Machine%20Learning&descSize=20&descAlignY=58" alt="Suyash Sunam" width="100%"/>
+<img src="assets/banner.svg" alt="Suyash Sunam: AI, machine learning, computer vision" width="100%"/>
 
 <b>Multi-camera AI surveillance @ Sparkline</b> &nbsp;|&nbsp; <b>2 IEEE publications</b> &nbsp;|&nbsp; <b>B.Tech AI &amp; DS, MIT-WPU 2027</b>
 
@@ -163,6 +163,6 @@ Please get in touch if my background fits your team.
 [![Email](https://img.shields.io/badge/Email-Say%20hi-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:2suyash@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-EE7200?style=for-the-badge&logo=vercel&logoColor=white)](https://suyashsunam.me/)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:EE7200,100:1F2937&height=110&section=footer" alt="" width="100%"/>
+<img src="assets/footer.svg" alt="" width="100%"/>
 
 </div>
