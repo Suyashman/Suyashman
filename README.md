@@ -23,11 +23,11 @@
 I am a final-year B.Tech student in **Artificial Intelligence & Data Science** at **MIT World Peace University, Pune**, working in computer vision and applied machine learning.
 My focus is taking models from dataset and training through GPU inference to deployed, production software.
 
-At **[Sparkline](https://sparkline.co.in)** I build a multi-camera **AI surveillance platform** for industrial sites: live video from many cameras, GPU inference,
+At **[Sparkline](https://sparklineequip.com/)** I build a multi-camera **AI surveillance platform** for industrial sites: live video from many cameras, GPU inference,
 and detections that become alerts and reports. My published research covers **audio event classification** and **image super-resolution**, and my
 hardware projects combine vision models with embedded systems.
 
-- 🔭 **Currently:** building AI camera surveillance at [Sparkline](https://sparkline.co.in)
+- 🔭 **Currently:** building AI camera surveillance at [Sparkline](https://sparklineequip.com/)
 - 🎓 **Studying:** B.Tech CSE (AI & DS), MIT-WPU, Pune · 2023 to 2027 · CGPA **8.56**
 - 📄 **Published:** two papers on IEEE Xplore
 - 🏆 **Won:** an award for a hardware and vision project (the Smart Tomato Segregator)
@@ -144,7 +144,7 @@ M. P. John, A. S. Borhade, S. Sunam, S. Vijayan, C. M. Rodrigues and S. Sonawani
 
 ## 🚀 A few things I've built
 
-- 🏭 **[Industrial Safety Vision](https://sparkline.co.in)**: multi-camera AI surveillance with five live detection pipelines (private, built at Sparkline)
+- 🏭 **[Industrial Safety Vision](https://sparklineequip.com/)**: multi-camera AI surveillance with five live detection pipelines (private, built at Sparkline)
 - 🍅 **[Smart Tomato Segregator](https://github.com/Suyashman/tomato-segregator)**: award-winning YOLOv8 + Arduino sorting machine
 - 🔍 **[FSRCNN super-resolution](https://github.com/Suyashman/fsrcnn-dlss)**: FSRCNN and EDSR implemented from scratch in PyTorch
 - 🔐 **[Video](https://github.com/Suyashman/video-steganography-java) and [image](https://github.com/Suyashman/image-steganography) steganography**: hiding messages inside media
