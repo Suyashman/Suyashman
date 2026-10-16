@@ -1,18 +1,45 @@
-## About Me:
-I’m a BTech undergraduate from India who enjoys building practical projects and exploring how AI can solve real-world problems. I’m currently focused on machine learning, deep learning, and full-stack development, and I like experimenting with ideas like data-driven apps and intelligent systems. I also have a strong interest in the stock market, especially in understanding trends, analyzing data, and using AI to make smarter insights. I’m always learning, building, and improving with every project I take  on.
+# GitHub profile README: research notes and results
 
-<br>
+Paste-ready file: `githubreadme_new.md` (goes in the repo `Suyashman/Suyashman`, file `README.md`).
 
-## Personal Website:
-[suyash.sunam.me](https://suyashsunam.me/)
+## What I could and couldn't read
 
-## Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/suyashsunam) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:2suyash@gmail.com) 
+| Source | Result |
+|---|---|
+| GitHub profile + 23 public repos (API, READMEs) | Read. All project facts and metrics in the README come from here. |
+| Portfolio site source (`my-portfolio/src/data/portfolio.js`) | Read. Education, location, email, older projects. |
+| LinkedIn `/in/suyashsunam` | **Blocked** (HTTP 999). Nothing taken from it. |
+| IEEE Xplore papers 11702370, 11323656 | **Blocked.** Titles/venues unknown, so they are placeholders. |
 
-## Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white)
-# GitHub Stats:
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=Suyashman&theme=radical&hide_border=true&include_all_commits=true&count_private=false&layout=compact)
+## Design decisions (from what recruiters and top profile READMEs do)
 
----
+- **One screen of positioning, then proof.** Banner + typing line + 4 link badges, then a 3-line pitch. Recruiters skim.
+- **Projects as a table with a measured result**, not a wall of badges. Numbers used are from your own READMEs
+  (SAM3 F1 per class, FSRCNN 37.0 dB vs 33.66 dB bicubic, ~60 FPS).
+- **Grouped skill icons** (skillicons.dev) instead of the old 25 loud shields, which read as filler.
+- **Stats kept to one row** (stats + top languages). No trophies/streak/visitor counter: they highlight small numbers.
+- **Sparkline** is described in general terms; no client names, no private code, no thresholds.
+- Left out because you did not tick them: certificates, Codeforces, internship-assignment framing
+  (the Apt and Tata Technologies repos appear only as plain projects).
 
+## Fill in before pasting
+
+1. Titles, venues and years of the **two IEEE papers** (search `[Paper 1 title]`).
+2. Your **job title at Sparkline** if you want it shown (I wrote none).
+3. Is "graduating 2027" right? Portfolio says 2023-2027.
+
+## Things on your GitHub that hurt you more than the README helps
+
+- **No pinned repos.** Pin: SAM3-Autolabeler, dataset-manager, worker-monitor, fsrcnn-dlss, SnakeNGen, advance-driver-assistance-system.
+- **16 of 23 repos have no description or topics.** Add a one-line description plus topics (`computer-vision`, `yolo`, `pytorch`, `fastapi`).
+- **`defect-detection` and `stock-price-prediction` are empty; `action-detection` has no README.** Fill, or make private.
+- `sample1`, `SEM6-PRACTICALS`, `github-slideshow` look like clutter: archive or hide.
+- Profile bio, location and name are blank. Set name, "ML / Computer Vision Engineer", Pune, link to suyashsunam.me.
+- Old README linked the site with the text `suyash.sunam.me` but the URL `suyashsunam.me`. Fixed.
+
+## Optional upgrades (not included, each adds setup)
+
+- Animated contribution snake: needs a GitHub Action in the profile repo (`Platane/snk`).
+- Dark/light aware banner via `<picture>`.
+- The stats mirror `github-readme-stats.shion.dev` was kept from your old README; if cards break, swap to
+  `github-readme-stats.vercel.app`.
