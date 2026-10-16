@@ -1,102 +1,45 @@
-<h1 align="center">Suyash Sunam</h1>
+<div align="center">
 
-<p align="center">
-  Computer vision engineer · B.Tech in AI &amp; Data Science, MIT World Peace University · Pune, India
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:EE7200,100:1F2937&height=230&section=header&text=Suyash%20Sunam&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Computer%20Vision%20%C2%B7%20AI%20Surveillance%20%C2%B7%20Machine%20Learning&descSize=20&descAlignY=58" alt="Suyash Sunam" width="100%"/>
 
-<p align="center">
-  <a href="https://suyashsunam.me/">Portfolio</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/suyashsunam/">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="mailto:2suyash@gmail.com">2suyash@gmail.com</a> &nbsp;·&nbsp;
-  <a href="#publications">Publications</a>
-</p>
+<b>Multi-camera AI surveillance @ Sparkline</b> &nbsp;|&nbsp; <b>2 IEEE publications</b> &nbsp;|&nbsp; <b>B.Tech AI &amp; DS, MIT-WPU 2027</b>
 
-<br/>
+<br/><br/>
 
-I design and ship AI camera surveillance: systems that watch many live video streams at once, recognise whatever
-a model has been trained to recognise, and turn what they see into alerts, records and reports a site can act on.
-My work covers the whole chain, from dataset and training through GPU inference and a web dashboard to an installer a
-client can run on their own machine.
+[![Portfolio](https://img.shields.io/badge/Portfolio-suyashsunam.me-EE7200?style=for-the-badge&logo=vercel&logoColor=white)](https://suyashsunam.me/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Suyash%20Sunam-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suyashsunam/)
+[![Email](https://img.shields.io/badge/Email-2suyash@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:2suyash@gmail.com)
+[![IEEE](https://img.shields.io/badge/IEEE-2%20Publications-00629B?style=for-the-badge&logo=ieee&logoColor=white)](#-publications)
 
-I am in my final year (2023–2027, CGPA 8.56) and looking for machine learning and computer vision engineering roles.
+![Profile views](https://komarev.com/ghpvc/?username=Suyashman&label=Profile%20views&color=EE7200&style=flat-square)
+![Followers](https://img.shields.io/github/followers/Suyashman?label=Followers&style=flat-square&color=EE7200)
 
-<br/>
+</div>
 
-## What I am building now
+---
 
-**Industrial Safety Vision** at [Sparkline](https://sparkline.co.in) is a multi-camera AI surveillance platform for
-industrial sites. It reads live RTSP streams, runs detection models on the site's own NVIDIA GPU, and records events with
-a snapshot, a zone, a severity and a timeline. Client sites have no internet connection, so everything, including the
-models, ships inside the installer and runs on-premise.
+## 👨‍💻 About Me
 
-The part I am proudest of is the architecture. A detection capability is a **pipeline package**: model weights, a manifest,
-an optional event handler and an optional dashboard panel, loaded against a versioned contract. A broken package is isolated and
-never stops the others. Anything a model can be trained to see becomes a monitored, alertable pipeline without changing the platform.
-Five are live today.
+I am a final-year B.Tech student in **Artificial Intelligence & Data Science** at **MIT World Peace University, Pune**, working in computer vision and applied machine learning.
+My focus is taking models from dataset and training through GPU inference to deployed, production software.
 
-| Pipeline | What it does |
-|---|---|
-| **PPE compliance** | Required equipment is set per camera, on the whole frame or on drawn areas, each with its own zone and severity. People are placed by their foot point and a violation is filed only after it is confirmed over time. A second look re-checks distant, small people on an enlarged crop. |
-| **Fire, smoke and sparks** | A custom-retrained detector served as a TensorRT engine, with class-level alerting. |
-| **Vehicle dwell time** | Many fine-grained vehicle classes merged into fleet categories, tracked per vehicle to measure how long each one stays. |
-| **Intrusion** | Confirmation and departure timers and size limits, so a real visit is told apart from a flicker. |
-| **Face recognition** | Worker identification with enrolment, running from a face model packaged for offline sites. |
+At **[Sparkline](https://sparkline.co.in)** I build a multi-camera **AI surveillance platform** for industrial sites: live video from many cameras, GPU inference,
+and detections that become alerts and reports. My published research covers **audio event classification** and **image super-resolution**, and my
+hardware projects combine vision models with embedded systems.
 
-**Under the pipelines**
+- 🔭 **Currently:** building AI camera surveillance at [Sparkline](https://sparkline.co.in)
+- 🎓 **Studying:** B.Tech CSE (AI & DS), MIT-WPU, Pune · 2023 to 2027 · CGPA **8.56**
+- 📄 **Published:** two papers on IEEE Xplore
+- 🏆 **Won:** an award for a hardware and vision project (the Smart Tomato Segregator)
+- 📈 **Also into:** the stock market, data, and using ML to make sense of trends
+- 🌱 **Learning:** edge inference, model optimisation, and building products people can install and trust
+- 📍 **Based in:** Pune, India
+- 📫 **Reach me:** [2suyash@gmail.com](mailto:2suyash@gmail.com)
+- 💼 **Open to:** ML / Computer Vision engineering roles
 
-- **Inference runtime:** a detection loop shared across all cameras, with GPU-resident models, object tracking, per-pipeline size limits and confidence floors, a decode budget, camera health monitoring and outage recording.
-- **Accuracy work:** I traced a stubborn false-alarm problem on small, distant people to helmets missing from the training labels themselves, which a validation set with the same gap could never reveal. The fix was a re-check on enlarged crops, measured on live site footage, plus a relabelling plan.
-- **Licensing and model protection:** licences are signed per computer and per pipeline, model weights are encrypted at rest and unlock only with a valid licence, and expiry follows a defined grace and lock behaviour.
-- **Delivery:** one codebase ships as a Windows installer and a Linux package, and also runs as a Docker deployment. I built the Installer Studio that produces client-specific installers (which pipelines and which labels each client gets). About 3,000 backend tests and CI on both operating systems guard it.
+---
 
-<sub>Stack: Python, FastAPI, SQLAlchemy and Alembic, React, TypeScript, Vite, Ultralytics YOLO, TensorRT, InsightFace, ONNX Runtime, PyInstaller, Inno Setup, Docker. The product code is private.</sub>
-
-<br/>
-
-## Selected projects
-
-### [Smart Tomato Segregator](https://github.com/Suyashman/tomato-segregator)
-**Award-winning hardware and vision project.**
-A camera watches each item, a YOLOv8 model decides what it is, and a command goes over Wi-Fi to an Arduino that moves a servo arm to sort it.
-Five sorting modes: tomato versus other vegetables, fresh versus rotten, red versus green, small versus large by bounding-box area, and manual. The mode is chosen on the device itself and shown on its OLED.
-A solo project, from dataset and model to firmware and hardware.
-<sub>YOLOv8 · OpenCV · Arduino UNO R4 WiFi · Roboflow</sub>
-
-### [Super-resolution from scratch (FSRCNN and EDSR)](https://github.com/Suyashman/fsrcnn-dlss)
-To understand how DLSS-style upscaling works, I built it from first principles in PyTorch, with mixed-precision training, an ablation runner, and a real-time webcam mode.
-At 2× on Set5, FSRCNN reaches about **37.0 dB PSNR against 33.66 dB for bicubic** with only 24 thousand parameters, and runs at about **60 FPS on an RTX 4070**.
-<sub>PyTorch · CUDA · AMP · OpenCV</sub>
-
-### Video and image steganography
-Hiding messages inside media without visible change. The video version ([Java and OpenCV](https://github.com/Suyashman/video-steganography-java)) embeds data by least-significant-bit substitution, with the carrier frames chosen by a seeded key so only the key holder can recover the message.
-The image version ([Python](https://github.com/Suyashman/image-steganography)) is deployed as a [live web demo](https://image-steganography-two.vercel.app).
-<sub>Java · OpenCV · Python · LSB encoding</sub>
-
-<details>
-<summary>More projects</summary>
-
-<br/>
-
-- **[SAM3 Auto-Annotator](https://github.com/Suyashman/SAM3-Autolabeler):** a labelling assistant on Meta's SAM3 that exports YOLO segmentation datasets, with per-class confidence thresholds and a review queue that shows the most uncertain items first. F1 on PPE: person 0.90, vest 0.87, helmet 0.85, goggles 0.65. Its README documents where it fails.
-- **[YOLO Dataset Manager](https://github.com/Suyashman/dataset-manager):** a local app covering dataset merging, in-browser annotation, augmentation, training with live loss and mAP charts, and inference testing on images, video and webcam.
-- **[SnakeNGen](https://github.com/Suyashman/SnakeNGen):** a small version of Google's GameNGen idea. A 2M-parameter U-Net replaces the game engine of Snake and predicts each next frame from recent frames and the player's action.
-- **[Driver-assistance testbed on RC cars](https://github.com/Suyashman/advance-driver-assistance-system):** overhead-camera tracking, lane-departure and collision warning, automatic emergency braking, and a vehicle-to-vehicle layer over MQTT.
-- **[Trading simulator](https://github.com/Suyashman/multi-client-trading-simulator):** a matching engine with partial fills, pushed live to every open tab by PostgreSQL triggers and LISTEN/NOTIFY.
-- **[Crop disease prediction](https://github.com/arya20072004/crop-disease-detection):** a team project, a mobile app using a CNN for diagnosis and an LSTM for risk forecasting.
-- **[DLSS benchmark](https://github.com/Suyashman/nvidia-dlss-performance-comparison-)** across five RTX GPUs, and **[hand-gesture drawing](https://github.com/Suyashman/hand-gesture-drawing)** with MediaPipe.
-
-</details>
-
-<br/>
-
-## Publications
-
-- **[Paper 1 title]**, *[venue, year]*. [IEEE Xplore](https://ieeexplore.ieee.org/document/11702370)
-- **[Paper 2 title]**, *[venue, year]*. [IEEE Xplore](https://ieeexplore.ieee.org/document/11323656)
-
-<br/>
-
-## Tools I work with
+## 🛠️ Tech Stack
 
 <p align="center"><sub><b>LANGUAGES</b></sub></p>
 
@@ -170,8 +113,56 @@ The image version ([Python](https://github.com/Suyashman/image-steganography)) i
 </table>
 
 
-<br/>
+---
 
-<p align="center">
-  <sub>Open to conversations about computer vision, edge inference and shipping ML products. Email is the fastest way to reach me.</sub>
-</p>
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="180" src="https://github-readme-stats.shion.dev/api?username=Suyashman&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false&title_color=EE7200&icon_color=EE7200" alt="GitHub stats"/>
+<img height="180" src="https://github-readme-stats.shion.dev/api/top-langs/?username=Suyashman&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&title_color=EE7200" alt="Top languages"/>
+
+<img src="https://streak-stats.demolab.com?user=Suyashman&theme=tokyonight&hide_border=true&ring=EE7200&fire=EE7200&currStreakLabel=EE7200" alt="GitHub streak" height="170"/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Suyashman&theme=tokyo-night&hide_border=true&line=EE7200&point=FFFFFF&area=true&area_color=EE7200" alt="Contribution graph" width="100%"/>
+
+</div>
+
+---
+
+## 📄 Publications
+
+**[Analysis of Super-Resolution Techniques: From Traditional Interpolation to FSRCNN](https://ieeexplore.ieee.org/document/11702370)**<br/>
+S. Sunam, S. Palwe and D. Joshi · *2026 10th International Conference on Computing, Communication, Control & Automation (ICCUBEA)*, Pune, India · DOI [10.1109/ICCUBEA69821.2026.11702370](https://doi.org/10.1109/ICCUBEA69821.2026.11702370)<br/>
+<sub>Image super-resolution · FSRCNN · Deep learning · CNN · PSNR · SSIM</sub>
+
+**[An Intelligent Audio Recognition Model for Gunshot and Forest Animal Sound Classification](https://ieeexplore.ieee.org/document/11323656)**<br/>
+M. P. John, A. S. Borhade, S. Sunam, S. Vijayan, C. M. Rodrigues and S. Sonawani · *2025 IEEE 5th International Conference on ICT in Business Industry & Government (ICTBIG)*, Indore, India · DOI [10.1109/ICTBIG68706.2025.11323656](https://doi.org/10.1109/ICTBIG68706.2025.11323656)<br/>
+<sub>Acoustic event detection · MFCC · CNN · SVM · Transfer learning · UrbanSound8K</sub>
+
+---
+
+## 🚀 A few things I've built
+
+- 🏭 **[Industrial Safety Vision](https://sparkline.co.in)**: multi-camera AI surveillance with five live detection pipelines (private, built at Sparkline)
+- 🍅 **[Smart Tomato Segregator](https://github.com/Suyashman/tomato-segregator)**: award-winning YOLOv8 + Arduino sorting machine
+- 🔍 **[FSRCNN super-resolution](https://github.com/Suyashman/fsrcnn-dlss)**: FSRCNN and EDSR implemented from scratch in PyTorch
+- 🔐 **[Video](https://github.com/Suyashman/video-steganography-java) and [image](https://github.com/Suyashman/image-steganography) steganography**: hiding messages inside media
+- 🧰 More on my [GitHub profile](https://github.com/Suyashman?tab=repositories)
+
+---
+
+<div align="center">
+
+### 🤝 Let's connect
+
+I'm looking for ML and computer vision roles where I can build things that ship.<br/>
+Please get in touch if my background fits your team.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suyashsunam/)
+[![Email](https://img.shields.io/badge/Email-Say%20hi-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:2suyash@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-EE7200?style=for-the-badge&logo=vercel&logoColor=white)](https://suyashsunam.me/)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:EE7200,100:1F2937&height=110&section=footer" alt="" width="100%"/>
+
+</div>
